@@ -17,6 +17,6 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
-.w3-display{
+.w3-display-topleft, .w3-display-middle, .w3-display-bottomleft{
   color: #fff;
 }
