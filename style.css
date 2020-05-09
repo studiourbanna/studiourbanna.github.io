@@ -10,7 +10,8 @@ html {
   height: 100%;
 }
 .bgimg {
-  background-image: url("http://w3schools.com/w3images/forestbridge.jpg");
+  background: rgb(3,0,42);
+  background: linear-gradient(90deg, rgba(3,0,42,1) 0%, rgba(4,4,115,1) 46%, rgba(0,212,255,1) 100%);
   min-height: 100%;
   background-position: center;
   background-size: cover;
