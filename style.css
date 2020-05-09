@@ -10,11 +10,13 @@ html {
   min-height: 100%;
   background-position: center;
   background-size: cover;
-  
-  color: #fff;
 }
 
 body,
 h1 {
   font-family: "Raleway", sans-serif;
+}
+
+.w3-display{
+  color: #fff;
 }
