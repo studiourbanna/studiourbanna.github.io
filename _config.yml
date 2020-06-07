@@ -1,0 +1,57 @@
+# Site
+name: 'Studio Urbanna'
+description: 'Soluções Web, Mobile e Mídias'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: ''
+email: 'urbanna@post.com'
+mailchimp-list: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    milla:
+      name:           Milla
+      site:           https://camilaloliveira.com.br
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Desenvolvedora desde 2008"
+      email:          clcmoliveira@mail.com
+      twitter:        https://twitter.com/millaloliveira
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: milla
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
