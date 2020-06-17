@@ -1,0 +1,14 @@
+I"<head>
+    <!-- Theme Stylesheet -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/404.css" />
+</head>
+<body>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Pagina não encontrada :(</strong></p>
+  <p>A página pode não existir.</p>
+</div>
+</body>
+:ET
