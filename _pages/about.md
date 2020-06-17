@@ -2,7 +2,7 @@
 title: "Sobre"
 layout: page-sidebar
 permalink: "/sobre.html"
-image: "/assets/images/screenshot.jpg"
+#image: "/assets/images/screenshot.jpg"
 comments: true
 ---
 <!--Made with <i class="fa fa-heart text-danger"></i> by Sal [@wowthemesnet](https://www.wowthemes.net/category/free-themes-templates/).-->

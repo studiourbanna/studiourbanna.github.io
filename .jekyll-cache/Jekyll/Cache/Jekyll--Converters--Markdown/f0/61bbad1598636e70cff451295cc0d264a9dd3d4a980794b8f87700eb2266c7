@@ -1,0 +1,64 @@
+I"{<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        <h1 class="font-weight-bold title h6 text-uppercase mb-4">Tags</h1>
+            
+         
+        <h4 class="font-weight-bold spanborder text-capitalize" id="sticky"><span>sticky</span></h4>
+            
+        
+        
+        
+          
+         
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/como-instalar-seu-tema-jekyll/">Como instalar seu tema jekyll em localhost antes de publicar ao GitHub</a>
+	</h2>
+	<p class="excerpt">
+	   
+	</p>
+	<small class="d-block text-muted">
+		Em <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jun 16, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/como-instalar-seu-tema-jekyll/">
+	<img class="w-100" src="/assets/images/home.jpg" alt="Como instalar seu tema jekyll em localhost antes de publicar ao GitHub" />
+	</a>
+	</div>
+
+</div>
+          
+        
+        
+        
+        
+
+        
+
+        </div>
+        
+            <div class="col-md-4">
+        <div class="sticky-top sticky-top-offset">
+    <h4 class="font-weight-bold spanborder"><span>Principais</span></h4>  
+    <ol class="list-featured">				
+           
+    </ol>
+</div>     
+    </div>
+        
+    </div>
+</div>
+:ET
