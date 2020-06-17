@@ -22,7 +22,7 @@ authors:
     milla:
       name:           Milla
       site:           https://camilaloliveira.com.br
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         assets/images/avatar1.jpg
       bio:            "Desenvolvedora desde 2008"
       email:          clcmoliveira@mail.com
       twitter:        https://twitter.com/millaloliveira

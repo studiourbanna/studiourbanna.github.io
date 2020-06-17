@@ -1,0 +1,176 @@
+I"�<div class="container">
+    
+
+    
+    
+    
+<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+<div class="row remove-site-content-margin">
+    
+    <!-- latest post -->
+    
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="/hello-world/">
+    <div class="topfirstimage" style="background-image: url( /assets/images/demo1.jpg); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="/hello-world/">Hello World</a>
+    </h2>
+    <p class="excerpt">
+        Jekyll!Conseguimos! Este é o nosso primeiro post. Vamos logo mais mostrar para você aqui como fizemos toda uma instalação para poder ...
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            Em <span class="catlist">
+                
+                <a class="text-capitalize text-muted smoothscroll" href="/categorias.html#jekyll">Jekyll</a><span class="sep">, </span>
+                
+                <a class="text-capitalize text-muted smoothscroll" href="/categorias.html#github">GitHub</a><span class="sep">, </span>
+                
+                </span>                   
+        </small>
+        <small class="text-muted">
+            Jun 07, 2020
+        </small>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-md-6">
+        
+        <!-- second latest post --><div class="mb-3 d-flex align-items-center">                
+                                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href=""></a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Em <span class="catlist">
+                        
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        
+                    </small>
+                </div>
+            </div>
+        
+        <!-- third latest post --><div class="mb-3 d-flex align-items-center">                
+                                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href=""></a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Em <span class="catlist">
+                        
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        
+                    </small>
+                </div>
+            </div>
+        
+        <!-- fourth latest post --><div class="mb-3 d-flex align-items-center">                
+                                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href=""></a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Em <span class="catlist">
+                        
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        
+                    </small>
+                </div>
+            </div>
+        
+    </div>
+    
+</div>
+    
+<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+ 
+
+
+
+
+    
+
+
+ <!--endif page url is / -->
+    
+
+
+<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
+    
+<div class="row mt-3">
+   
+    <div class="col-md-8 main-loop">
+        
+        <h4 class="font-weight-bold spanborder"><span>Todos</span></h4>
+        
+
+        
+        
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/hello-world/">Hello World</a>
+	</h2>
+	<p class="excerpt">
+	   Jekyll!Conseguimos! Este é o nosso primeiro post. Vamos logo mais mostrar para você aqui como fizemos toda uma instalação para poder trazer no ar o site do studio urbanna.
+	</p>
+	<small class="d-block text-muted">
+		Em <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#github">GitHub</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jun 07, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/hello-world/">
+	<img class="w-100" src="/assets/images/demo1.jpg" alt="Hello World" />
+	</a>
+	</div>
+
+</div>
+        
+        
+        
+        <div class="mt-5">
+         <!-- Pagination links -->
+                  
+        </div>
+        
+    </div>
+    
+    <div class="col-md-4">
+        <div class="sticky-top sticky-top-offset">
+    <h4 class="font-weight-bold spanborder"><span>Principais</span></h4>  
+    <ol class="list-featured">				
+           
+    </ol>
+</div>     
+    </div>
+    
+</div>
+
+
+
+</div>
+:ET
