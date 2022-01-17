@@ -94,11 +94,11 @@ function checkCookie() {
         var btnStyle = document.getElementById('mudaEstilo')
         var btnActive = btnStyle.classList.contains('active')
 
-        if (contrasteCookie === 'contraste.css') {
+        if (contrasteCookie === 'acessibility.css') {
             btnStyle.className = 'active btn btn-light btn-sm'
             btnStyle.innerHTML = 'BRANCO'
-            mudaStyleSheet('contraste.css')
-        } else if(contrasteCookie === 'style.css'){
+            mudaStyleSheet('acessibility.css')
+        } else if(contrasteCookie === 'theme.css'){
             btnStyle.className = 'btn btn-dark btn-sm'
             btnStyle.innerHTML = 'PRETO'
         } else {
