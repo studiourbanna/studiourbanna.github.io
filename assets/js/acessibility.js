@@ -41,14 +41,14 @@ function mudaContraste() {
         //FORMATAÇÃO DO BOTÃO, MUDANÇA DO CSS E CRIAÇÃO DO COOKIE DE CSS
         btnStyle.className = 'btn btn-dark btn-sm'
         btnStyle.innerHTML = 'PRETO'
-        mudaStyleSheet('theme.css')
-        createCookie("styleSheet", 'theme.css', 365)
+        mudaStyleSheet('acessibility.css')
+        createCookie("styleSheet", 'acessibility.css', 365)
     } else {
         //FORMATAÇÃO DO BOTÃO, MUDANÇA DO CSS E CRIAÇÃO DO COOKIE DE CSS
         btnStyle.className = 'active btn btn-light btn-sm'
         btnStyle.innerHTML = 'BRANCO'
-        mudaStyleSheet('acessibility.css')
-        createCookie("styleSheet", 'acessibility.css', 365)
+        mudaStyleSheet('theme.css')
+        createCookie("styleSheet", 'theme.css', 365)
     }
 
 }
