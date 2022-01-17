@@ -10,7 +10,8 @@ body, .bg-white, .site-content, .alert-bar, .modal-content {
 
 .navbar-light .navbar-brand a:hover, 
 .navbar-light .navbar-nav .nav-link a:hover, 
-.lunrsearchresult .title {
+.lunrsearchresult .title,
+.lunrsearchresult .url {
     color: #ffbf00;  
 }
 
