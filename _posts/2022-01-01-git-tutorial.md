@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tutorial de Git - Criando um Repositório
-date: 2022-01-01 17:29:40
+author: milla
 categories: [ Git, GitHub ]
 image: media/images/5.png
 tags: [all-posts]
