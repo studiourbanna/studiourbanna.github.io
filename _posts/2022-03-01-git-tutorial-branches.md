@@ -13,7 +13,7 @@ Agora, ao iniciarmos nossa explicação sobre o `git flow`, vamos falar sobre as
 
 Podemos imaginar ela como o mapa do Metrô de São Paulo, com inúmeras linhas, mas repare que a Linha 1 - Azul é a linha principal, a nossa `main`, e as estações com integrações são, em nosso projeto, as funcionalidades incrementadas através das Merge Requests (MRs).
 
-[![Mapa do Metro SP 2021]({{site.baseurl}}/images/mapa_metro_sp_2021.jpg)]
+[![Mapa do Metro SP 2021]({{site.baseurl}}/media/images/mapa_metro_sp_2021.jpg)]
 
 Ou seja, posso chamar a minha branch principal de Linha_1/Azul? Pode, mas precisa seguir o comando `git config --global` para configurá-la. Assim, como você pode criar branches com os nomes das respectivas linhas e as MRs conterem os nomes das integrações.
 
