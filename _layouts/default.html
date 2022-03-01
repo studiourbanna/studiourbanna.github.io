@@ -15,6 +15,9 @@
     {% if page.url == "/404" %}
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/404.css">
     {% endif %}
+    <!-- Acessibility Theme -->
+    <!-- <link rel='stylesheet' id='styleContraste' href="{{site.baseurl}}/assets/css/acessibility.css"  type='text/css' media='all' /> -->
+
 
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script
@@ -22,12 +25,15 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 
+    <!-- ACESSIBILIDADE JS -->
+    <!-- <script src="{{site.baseurl}}/assets/js/acessibility.js"></script> -->
+
     {% include tracking-header.html %}
 
 
 </head>
 
-<body class="{% if page.url == "/" %} homefirstpage {% endif %}">
+<body class="{% if page.url == "/" %} homefirstpage {% endif %}" onload="checkCookie()" class="txtFontC">
 
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -42,6 +48,7 @@
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">
                 {% include search-lunr.html %}
+                {% include acessibility-buttons.html %}
             </ul>
         </div>
     </div>

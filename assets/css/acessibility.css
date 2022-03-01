@@ -1,0 +1,41 @@
+body, .bg-white, .site-content, .alert-bar, .modal-content {
+    background: #111111;
+    color: #e2e2e2;
+}
+
+.navbar-light .navbar-brand, 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-brand a:hover, 
+.navbar-light .navbar-nav .nav-link a:hover, 
+.lunrsearchresult .title,
+.lunrsearchresult .url {
+    color: #ffbf00;  
+}
+
+.text-danger {
+    color: #eae72f !important;
+}
+
+.text-dark, 
+.article-headline {
+    color: #fff !important;
+}
+
+.text-dark a:hover,
+.text-muted, 
+.text-muted a:hover {
+    color: #ffbf00 !important;
+}
+
+.spanborder {
+    border-bottom: 1px solid #e0ff09;
+}
+
+
+.btn-outline-secondary {
+    color: #e0ff09 !important;
+    border-color: #e0ff09 !important;
+}
