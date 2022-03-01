@@ -29,7 +29,7 @@ Seguindo a aula da Rafaella Ballerini, vamos criar um botão estilizado para nos
 
 <script src="https://gist.github.com/clcmo/dc32d912c84bf69113fb38a28af43f9c.js"></script>
 
-- Após esse passo, vamos publicar esse botão de exemplo, através dos comandos `git commit -a -m "novo botão"`, mas atenção com o próximo passo, nós faremos com o comando `git push -u origin feature/botao`, para garantir que a atualização é em referência a feature e que ela precisa ser testada e avaliada antes de seguir pela linha principal.
+- Após esse passo, vamos publicar esse botão de exemplo, através dos comandos `git add .` e `git commit -m "novo botão"`, mas atenção com o próximo passo, nós faremos com o comando `git push -u origin feature/botao`, para garantir que a atualização é em referência a feature e que ela precisa ser testada e avaliada antes de seguir pela linha principal.
 
 Com isso, passamos a ter duas branches em nosso projeto, e, ao analizarmos a parábola do Metrô, é como se tivessemos informado que há uma segunda linha de metrô e ela possui uma integração na Estação Paraíso.
 
