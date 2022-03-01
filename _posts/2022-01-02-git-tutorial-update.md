@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tutorial de Git - Alterando Arquivos
-date: 2022-01-03 18:29:40
+author: milla
 categories: [ Git, GitHub ]
 image: media/images/5.png
 tags: [all-posts]
