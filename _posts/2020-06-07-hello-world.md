@@ -7,6 +7,7 @@ image: media/images/1.png
 tags: [all-posts]
 ---
 
+## Jekyll
 
-<h2>Jekyll!</h2>
-<p>Conseguimos! Este é o nosso primeiro post. Vamos mostrar para você aqui, no <a href="{{site.baseurl}}/2020-06-16-como-instalar-seu-tema-jekyll.html">próximo post</a>, como fizemos toda uma instalação para poder trazer no ar o site do <strong>studio urbanna</strong>.</p>
+Conseguimos! Este é o nosso primeiro post. Vamos mostrar para você aqui, no
+[próximo post]({{site.baseurl}}/como-instalar-seu-tema-jekyll/), como fizemos toda uma instalação para poder trazer no ar o site do <strong>studio urbanna</strong>.
