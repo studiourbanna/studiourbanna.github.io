@@ -1,6 +1,7 @@
 ---
 title: "Contato"
 permalink: "/contact.html"
+layout: base
 ---
 
 <form action="https://formspree.io/f/xoqygevr" method="POST">    
