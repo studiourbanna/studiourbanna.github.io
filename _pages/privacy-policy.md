@@ -1,6 +1,6 @@
 ---
 title: "Privacidade"
-permalink: "/privacidade.html"
+permalink: "/privacy.html"
 layout: base
 ---
 
