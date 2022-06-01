@@ -48,7 +48,7 @@ defaults:
   - scope:
       path: "_pages"
     values:
-      layout: page
+      layout: base
       
 # Syntax
 markdown: kramdown
