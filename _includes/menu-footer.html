@@ -13,9 +13,9 @@ FOOTER
                  License: MIT
                  </small>
             </div>
-            {% for category in site.categories %}
+            {% for post in site.tags.featured %}
             <div class="col-6 col-md">
-                <h5 class="mb-4 text-white">{{ category[0] }}</h5>
+                <h5 class="mb-4 text-white">Principais</h5>
                 
                 <ul class="list-unstyled text-small">
                     {% assign pages_list = category[1] %}
