@@ -1,0 +1,33 @@
+{% include header.html %}
+
+{% if page == "/docs.html" %}
+{% include coffee.html%}
+<main class="content-withfixedsidebar">
+{% include navbar.html %}
+{% include jumbotron.html %}
+{{content}}
+{% include donate.html %}
+{% include menu-footer.html %}
+</main>
+{% include script-footer.html %}
+
+{% else %}
+{% include navbar.html %}
+{% include jumbotron.html %}
+<!--------------------------------------
+MAIN
+--------------------------------------->
+<div class="container pt-5 pb-5" data-aos="fade-up">
+    {{ content }}
+</div>
+{% if layout  == "page" %}
+{% unless page.url == "/contact.html"%}
+{% include newsletter.html %}
+{% endunless %}
+{% elsif layout == "post"  %}
+{% include newsletter.html %}
+{% endif %}
+{% include donate.html %}
+{% include footer.html %}
+
+{% endif %}
