@@ -31,11 +31,11 @@ MAIN
 {% if layout  == "page" %}
 {% unless page.url == "/contact.html"%}
 {% include newsletter.html %}
+{% include donate.html %}
 {% endunless %}
 {% elsif layout == "post"  %}
 {% include newsletter.html %}
 {% endif %}
-{% include donate.html %}
 {% include footer.html %}
 
 {% endif %}
