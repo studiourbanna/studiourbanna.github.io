@@ -1,6 +1,6 @@
 ---
 title: "Tags"
-layout: default
+layout: base
 permalink: "/tags.html"
 ---
 

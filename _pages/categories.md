@@ -1,6 +1,6 @@
 ---
 title: "Categorias"
-layout: default
+layout: base
 permalink: "/categorias.html"
 ---
 

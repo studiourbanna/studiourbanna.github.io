@@ -1,6 +1,7 @@
 ---
 title: "Privacidade"
 permalink: "/privacidade.html"
+layout: base
 ---
 
 <strong>{{site.name}}</strong> leva a sério sua privacidade. Para proteger melhor sua privacidade, fornecemos este aviso de política de privacidade, explicando a maneira como suas informações pessoais são coletadas e usadas.
