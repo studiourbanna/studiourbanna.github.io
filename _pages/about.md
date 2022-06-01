@@ -23,8 +23,3 @@ permalink: "/about.html"
 		</div>
 	</div>
 {% endfor%}
-
-[urbanna]: https://portalurbanna.com.br
-[Camila L. Oliveira]: https://millaloliveira.com
-[4Bee Cosmeticos]: https://www.4beecosmeticos.com.br
-[Hey]: https://its.heyurb.com.br
