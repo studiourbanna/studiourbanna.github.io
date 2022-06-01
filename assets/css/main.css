@@ -9269,7 +9269,9 @@ a {
 
 .navbar-brand {
   margin-right: 2rem;
-  font-size: 1.25rem; }
+  font-size: 1.25rem; 
+  font-family: 'Kollektif';
+}
 
 .dropdown-item {
   font-weight: 300; }
