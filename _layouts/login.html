@@ -1,0 +1,46 @@
+{% include header.html %}
+{% include navbar.html %}
+    
+<!-- Main -->
+<div class="d-md-flex h-md-100 align-items-center">
+	<div class="col-md-6 p-0 bg-indigo h-md-100">
+		<div class="text-white d-md-flex align-items-center h-100 p-5 text-center justify-content-center">
+			<div class="logoarea pt-5 pb-5">
+				<p>
+					<i class="fa fa-anchor fa-3x"></i>
+				</p>
+				<h1 class="mb-0 mt-3 display-4">{{site.title}}</h1>
+				<h5 class="mb-4 font-weight-light">{{page.description}}</h5>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 p-0 bg-white h-md-100 loginarea">
+		<div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
+			<form class="border rounded p-5">
+				<h3 class="mb-4 text-center">{{page.title}}</h3>
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" required="">
+				</div>
+				{% unless page.url == "/forgot-pass.html"%}
+				<div class="form-group">
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
+				</div>
+				{% endunless%}
+				<div class="form-group form-check">
+					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+					<label class="form-check-label small text-muted" for="exampleCheck1">Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-success btn-round btn-block shadow-sm">Sign in</button>
+				{% if page.url == "/login.html"%}
+				<small class="d-block mt-4 text-center"><a class="text-gray" href="{{site.baseurl}}/forgot-pass.html">Forgot your password?</a></small>
+				{% else %}
+				<small class="d-block mt-4 text-center"><a class="text-gray" href="{{site.baseurl}}/login.html">Back to Login</a></small>
+				{% endif %}
+			</form>
+		</div>
+	</div>
+</div>
+<!-- End Main -->
+    
+{% include donate.html %}
+{% include script-footer.html %}
