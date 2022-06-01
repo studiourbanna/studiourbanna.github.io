@@ -1,7 +1,7 @@
 ---
 title: "Categorias"
 layout: base
-permalink: "/categorias.html"
+permalink: "/categories.html"
 ---
 
 <div class="container">
