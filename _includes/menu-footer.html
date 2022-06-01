@@ -13,20 +13,26 @@ FOOTER
                  License: MIT
                  </small>
             </div>
-            {% for post in site.tags.featured %}
             <div class="col-6 col-md">
                 <h5 class="mb-4 text-white">Principais</h5>
                 
                 <ul class="list-unstyled text-small">
-                    {% assign pages_list = category[1] %}
-                    {% for post in pages_list %}
-                    {% if post.title != null %}
-                    {% if group == null or group == post.group %}
-                        <li><a class="text-muted" href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></li>
-                    {% endif %}
-                    {% endif %}
+                    {% for post in site.tags.featured %}                
+                        <li class="mb-4">
+                            <span>
+                                <h6 class="font-weight-bold">
+                                    <a href="{{site.baseurl}}{{ post.url }}" class="text-white">{{ post.title }}</a>
+                                </h6>
+                                <span class="d-block text-muted">
+                                    Em <span class="catlist">
+                                    {% for category in post.categories %}
+                                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                                    {% endfor %}
+                                </span>
+                            </span>
+                        </span>
+                        </li>                
                     {% endfor %}
-                    {% assign pages_list = nil %}
                 </ul>
             </div>
             {% endfor %}
