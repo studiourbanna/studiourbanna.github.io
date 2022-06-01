@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: page
+layout: base
 permalink: "/about.html"
 ---
 
