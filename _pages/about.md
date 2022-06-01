@@ -1,17 +1,28 @@
 ---
-title: "Sobre"
-layout: page-sidebar
-permalink: "/sobre.html"
-#image: "/assets/images/screenshot.jpg"
-comments: true
+title: "About"
+layout: page
+permalink: "/about.html"
 ---
-Criado em 2020, <strong>studio urbanna</strong> tem a missão de trazer aos clientes sites com acessibilidade, responsividade, conteúdo e serem dinâmicas aos consumidores.
 
-Nosso portfólio está sendo atualizado com clientes como <strong>[urbanna][urbanna]</strong>, <strong>[Camila L. Oliveira][Camila L. Oliveira]</strong>, <strong>[4Bee Cosméticos][4Bee Cosmeticos]</strong> e ainda o encurtador de link <strong>[Hey][Hey]</strong>.
-
-<div class="container">
-    {% include authors-list.html %}
-</div>
+{% for author in site.authors %}
+<div class="col-md-4">
+		<div class="card shadow-sm border-0">
+			<img class="card-img-top" src="./assets/img/demo/blog8.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+				<img class="rounded-circle shadow mt-neg5" src="{{site.baseurl}}/{{ author[1].avatar }}" width="70">
+				<h5 class="card-title">{{ author[1].name }}</h5>
+				<p class="card-text text-muted">
+					 {{ author[1].bio }}
+				</p>
+				<div class="text-center">
+					<a target="_blank" href="{{ author[1].facebook }}"><span class="iconbox iconsmall rounded-circle bg-secondary text-white mr-1"><i class="fab fa-facebook-f"></i></span></a>
+					<a target="_blank" href="{{ author[1].twitter }}"><span class="iconbox iconsmall rounded-circle bg-info text-white mr-1"><i class="fab fa-twitter"></i></span></a>
+					<a target="_blank" href="{{ author[1].github }}"><span class="iconbox iconsmall rounded-circle bg-dark text-white"><i class="fab fa-github"></i></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endfor%}
 
 [urbanna]: https://portalurbanna.com.br
 [Camila L. Oliveira]: https://millaloliveira.com
