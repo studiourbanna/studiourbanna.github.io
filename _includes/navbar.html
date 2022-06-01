@@ -1,0 +1,58 @@
+<!--------------------------------------
+NAVBAR
+--------------------------------------->
+{% if page.url == "/404.html" %}
+<nav class="topnav navbar navbar-expand-lg navbar-dark fixed-top">
+{% elsif page contains background %}
+<nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+{% else %}
+<nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+{% endif %}
+    <div class="container-fluid">
+        {% unless page.url == "/docs.html" %}
+            <a class="navbar-brand" href="{{site.baseurl}}/index.html">
+                <i class="fas fa-anchor mr-2"></i> <strong>{{site.title}}</strong> Template
+            </a>
+        {% endunless %}
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+                {% if page.url == "/docs.html" %}
+                <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                {% endif %}
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Page Examples </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{site.baseurl}}/landing.html">Home Landing</a>
+                    <a class="dropdown-item" href="{{site.baseurl}}/login.html">User Login</a>
+                    <a class="dropdown-item" href="{{site.baseurl}}/blog.html">Blog Index</a>
+                    <a class="dropdown-item" href="{{site.baseurl}}/page.html">Sample Page</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{site.baseurl}}/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{site.baseurl}}/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/docs.html">Docs</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+                <li class="nav-item">
+                <span class="nav-link" href="#">
+                <a class="btn btn-info btn-round shadow" href="#" data-toggle="modal" data-target="#modal_newsletter"><i class="fas fa-cloud-download-alt"></i> Download <a href="{{site.download-link}}" class="downloadzip" class="hidden"></a>
+                </a>
+                </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- End Navbar -->

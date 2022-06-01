@@ -1,0 +1,44 @@
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<footer class="bg-black pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md mr-4">
+                <i class="fas fa-copyright text-white"></i>
+                <small class="d-block mt-3 mb-4 text-muted">©
+                <script>document.write(new Date().getFullYear())</script>
+                 {{site.title}}, made by <a target="_blank" href="https://www.wowthemes.net">Sal</a>, 
+                 and <a target="_blank" href="https://www.studiourbanna.com.br">stdurb</a>
+                 License: MIT
+                 </small>
+            </div>
+            {% for category in site.categories %}
+            <div class="col-6 col-md">
+                <h5 class="mb-4 text-white">{{ category[0] }}</h5>
+                
+                <ul class="list-unstyled text-small">
+                    {% assign pages_list = category[1] %}
+                    {% for post in pages_list %}
+                    {% if post.title != null %}
+                    {% if group == null or group == post.group %}
+                        <li><a class="text-muted" href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign pages_list = nil %}
+                </ul>
+            </div>
+            {% endfor %}
+            <div class="col-6 col-md">
+                <h5 class="mb-4 text-white">About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
