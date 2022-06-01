@@ -9903,4 +9903,19 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before {
   content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
 
+
+  .alertbar {
+    box-shadow:0 -3px 10px 0 rgba(0,0,0,.0785);
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color:#fff;
+    width:100%;
+    padding:20px 0;
+    z-index:1021;
+    display:none;
+  }
+  .alertbar img {
+    border-radius:2px;
+  }
 /*# sourceMappingURL=main.css.map */
