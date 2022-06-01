@@ -5,10 +5,10 @@
 <main class="content-withfixedsidebar">
 {% include navbar.html %}
 {% include jumbotron.html %}
-<!-- Search Results -->
-<div id="lunrsearchresults">
-    <ul class="mb-0"></ul>
-</div>
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
 {{content}}
 {% include donate.html %}
 {% include menu-footer.html %}
@@ -22,6 +22,10 @@
 MAIN
 --------------------------------------->
 <div class="container pt-5 pb-5" data-aos="fade-up">
+        <!-- Search Results -->
+        <div id="lunrsearchresults">
+            <ul class="mb-0"></ul>
+        </div>
     {{ content }}
 </div>
 {% if layout  == "page" %}
