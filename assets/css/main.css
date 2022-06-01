@@ -3643,7 +3643,9 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.15rem;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap; 
+  font-family:'Kollektif', serif;
+  }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
