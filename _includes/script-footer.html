@@ -73,5 +73,30 @@ $('.popover-dismiss').popover({
 })
 </script>
 
+//Insert Firebase
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCQUYhidBcq6hbQq9Fc3Fyjq-mkXu2Iogo",
+    authDomain: "web-studio-urbanna.firebaseapp.com",
+    projectId: "web-studio-urbanna",
+    storageBucket: "web-studio-urbanna.appspot.com",
+    messagingSenderId: "389011934072",
+    appId: "1:389011934072:web:b76f55cc7d8169c588d68d",
+    measurementId: "G-MMQ9KBDP1R"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </body>
 </html>
