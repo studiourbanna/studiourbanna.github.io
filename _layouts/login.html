@@ -18,12 +18,12 @@
 		<div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
 			<form class="border rounded p-5">
 				<h3 class="mb-4 text-center">{{page.title}}</h3>
-				<div class="form-group">
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" required="">
+				<div class="form-group" id="div_login">
+					<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="E-mail" required="">
 				</div>
 				{% unless page.url == "/forgot-pass.html"%}
 				<div class="form-group">
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
+					<input type="password" class="form-control" id="password" placeholder="Password" required="">
 				</div>
 				{% endunless%}
 				<div class="form-group form-check">
